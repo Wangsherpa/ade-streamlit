@@ -132,7 +132,7 @@ def main():
     current_index = ensure_index_bounds(st.session_state.pos_index, max_index)
     st.session_state.pos_index = current_index
 
-    left_col, right_col = st.columns([2, 1], gap="large")
+    left_col, right_col = st.columns([1, 1], gap="large")
 
     with left_col:
         btn_prev, btn_next = st.columns([1, 1])
